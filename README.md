@@ -1,4 +1,4 @@
-# Understanding difference between seal and freez
+# Understanding difference between Object.seal and Object.freeze
  
 ## Usage
  
