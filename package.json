@@ -1,0 +1,18 @@
+{
+  "name": "js-freeze_vs_seal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha"
+  },
+  "author": "Iván Corrales Solera <developer@wesovi.com> (http://www.wesovi.com)",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  },
+  "devDependencies": {
+    "chai-catch-exception": "^1.0.0"
+  }
+}
