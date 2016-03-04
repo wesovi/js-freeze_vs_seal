@@ -10,17 +10,12 @@ var should = chai.should();
 
 describe('Modifying attribute values.',function(){
 
-    var dataInput = null;
-
-    beforeEach( function(){
-        dataInput = {
+    it('All attributes in an object can be modified', function() {
+        var dataInput = {
             prop:'A',
             prop2:'B',
-            prop3:'C'
+            prop3:'C',
         }
-    });
-
-    it('All attributes in an object can be modified', function() {
         dataInput.prop ='B';
         dataInput.prop2 ='C';
         dataInput.prop3 ='A';
